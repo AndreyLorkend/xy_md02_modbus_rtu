@@ -47,11 +47,14 @@ public class App implements Runnable {
         SerialParameters sp;
         TcpParameters tp;
         App test = new App();
+        for(String name : SerialPortList.getPortNames()) {
+            System.out.println(name);
+        }
         try {
             switch (TransportType.RTU) {
                 case RTU:
                     sp = new SerialParameters();
-                    String device_name_slave = "COM6";
+                    String device_name_slave = "/dev/USB0";
                     String device_name_master = "COM6";
                     SerialPort.BaudRate baud_rate = SerialPort.BaudRate.BAUD_RATE_9600;
                     int data_bits = 8;
