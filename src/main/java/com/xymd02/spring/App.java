@@ -55,20 +55,20 @@ public class App implements Runnable {
                 case RTU:
                     sp = new SerialParameters();
                     String device_name_slave = "/dev/ttyUSB0";
-                    String device_name_master = "COM6";
+                    String device_name_master = "/dev/ttyUSB0";
                     SerialPort.BaudRate baud_rate = SerialPort.BaudRate.BAUD_RATE_9600;
                     int data_bits = 8;
                     int stop_bits = 1;
                     SerialPort.Parity parity = SerialPort.Parity.NONE;
 
                     try {
-                        device_name_slave = initParameter("device_name_slave", device_name_slave, "COM6", new ParameterInitializer<String>() {
+                        device_name_slave = initParameter("device_name_slave", device_name_slave, "/dev/ttyUSB0", new ParameterInitializer<String>() {
                             @Override
                             public String init(String arg) throws Exception {
                                 return arg;
                             }
                         });
-                        device_name_master = initParameter("device_name_master", device_name_master, "COM6", new ParameterInitializer<String>() {
+                        device_name_master = initParameter("device_name_master", device_name_master, "/dev/ttyUSB0", new ParameterInitializer<String>() {
                             @Override
                             public String init(String arg) throws Exception {
                                 return arg;
