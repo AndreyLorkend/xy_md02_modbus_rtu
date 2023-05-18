@@ -4,13 +4,14 @@
 
   <groupId>com.xymd02.spring</groupId>
   <artifactId>xy_md02_modbus_rtu</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>xy_md02_modbus_rtu</name>
   <url>http://maven.apache.org</url>
 
   <properties>
+    <maven.compiler.target>11</maven.compiler.target>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <start-class>com.xymd02.spring.App</start-class>
   </properties>
