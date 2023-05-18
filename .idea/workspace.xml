@@ -4,7 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d58b9db4-0ad7-4855-a6b4-4d22605a0601" name="Changes" comment="f" />
+    <list default="true" id="d58b9db4-0ad7-4855-a6b4-4d22605a0601" name="Changes" comment="add manifest">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/xymd02/spring/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/xymd02/spring/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$ParameterInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$ParameterInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$TransportType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App$TransportType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/BaseModbusRtuDevice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/BaseModbusRtuDevice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/TempHumiditySensor$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/TempHumiditySensor$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/xymd02/spring/TempHumiditySensor.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/xymd02/spring/TempHumiditySensor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/xymd02/spring/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/xymd02/spring/AppTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,15 +66,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/pc/homework/xy_md02_modbus_rtu",
-    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/pc/homework/xy_md02_modbus_rtu&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.38045976&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propVCSSupport.DirectoryMappings&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.xymd02.spring.App" />
@@ -94,7 +114,35 @@
       <option name="project" value="LOCAL" />
       <updated>1682864701179</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="init">
+      <created>1684058234469</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1684058234469</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add print port names">
+      <created>1684059005057</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684059005057</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add manifest">
+      <created>1684060973395</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1684060973395</updated>
+    </task>
+    <task id="LOCAL-00005" summary="add manifest">
+      <created>1684061000117</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684061000117</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -125,6 +173,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="f" />
-    <option name="LAST_COMMIT_MESSAGE" value="f" />
+    <MESSAGE value="init" />
+    <MESSAGE value="add print port names" />
+    <MESSAGE value="add manifest" />
+    <option name="LAST_COMMIT_MESSAGE" value="add manifest" />
   </component>
 </project>
